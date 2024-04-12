@@ -1033,12 +1033,12 @@
             "version": "3.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/laradocs/php-moguding-sdk.git",
+                "url": "https://github.com/ShiQing-31013/php-moguding-sdk.git",
                 "reference": "1659b37622853781320be30dcc4c152441c998fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laradocs/php-moguding-sdk/zipball/1659b37622853781320be30dcc4c152441c998fb",
+                "url": "https://api.github.com/repos/ShiQing-31013/php-moguding-sdk/zipball/1659b37622853781320be30dcc4c152441c998fb",
                 "reference": "1659b37622853781320be30dcc4c152441c998fb",
                 "shasum": ""
             },
