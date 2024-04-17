@@ -3,7 +3,7 @@ name: "下班"
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 3 * * 1-5"
+    - cron: "30 3 * * *"
 
 jobs:
   build:
@@ -25,7 +25,7 @@ jobs:
           MOGUDING_ADDRESS: ${{ secrets.ADDRESS }}
           MOGUDING_LONGITUDE: ${{ secrets.LONGITUDE }}
           MOGUDING_LATITUDE: ${{ secrets.LATITUDE }}
-          MOGUDING_TYPE: "END"
+          MOGUDING_TYPE: "START"
           MOGUDING_DESCRIPTION: ${{ secrets.DESCRIPTION }}
           MOGUDING_SCT_KEY: ${{ secrets.SENDKEY }}
         run: php artisan moguding
